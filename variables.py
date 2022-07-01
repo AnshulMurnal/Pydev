@@ -14,9 +14,6 @@ cat = True
 dog = False
 print("Do cats eat dog?: "+str(dog))
 
-Vedant = Tanaaz = True
-print(Vedant != Tanaaz)
-
 #Anshul = Smart
 #Age = 14
 #Developer = True
