@@ -39,9 +39,9 @@ class Robot:
             print("High temperature the person is like to have drank too much alcohol")
         else:
             print("The temperature seems to be normal")
-    alcohol = random.randint(0, 20)
-    def alcoholity(self,):
-        if self.alcohol > 10:
+    humid = random.randint(0, 60)
+    def humidity(self,):
+        if self.humid > 50:
             print("High rate")
         else:
             print("Normal rate")
@@ -51,17 +51,10 @@ class Robot:
             print("He is fast")
         else:
             print("He is slow")
-    person = temp + speed + alcohol
-    def Person(self,):
-        if self.person > 70:
-            print("Ladies and gentlemen we have found the GIGICHAD!")
-        else:
-            print("A normal guy")
-bot = Robot("dora", "black")
+bot = Robot("BOT1", "black")
 bot.acceleration()
 bot.temperature()
-bot.alcoholity()
-bot.Person()
+bot.humidity()
 bot.clean()
 bot.news()
 bot.time()
