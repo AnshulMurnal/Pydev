@@ -54,9 +54,11 @@ class Robot:
         else:
             self.speed = random.randint(0, 40)
 bot = Robot("dora", "black")
+bot.start()
 bot.acceleration()
 bot.temperature()
 bot.clean()
 bot.power()
 bot.news()
 bot.times()
+bot.shutdown()
